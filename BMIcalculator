@@ -1,0 +1,9 @@
+#code for body mass index calculator 👇
+h = input("enter your height in m: ")
+w = input("enter your weight in kg: ")
+
+a=float(h)
+b=float(w)
+bmi = b/(a**2)
+r=int(bmi)
+print(r)
