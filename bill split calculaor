@@ -4,4 +4,4 @@ tip = float(input("How much tip you like to give? 10, 12, or 15? "))
 person = int(input("How many people to split the bill? "))
 a = bill*(100+tip)/100
 b = round(a/person,2)
-print(f"Each person should pay {b}")
+print(f"Each person should pay ${b}")
